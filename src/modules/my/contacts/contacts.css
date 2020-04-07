@@ -1,0 +1,22 @@
+
+.datatable {
+    width:100%;
+    border-collapse:collapse;
+}
+.datatable th {
+    padding:0.5em;
+    background : white;
+}
+.datatable td{
+    padding: 0.5em;
+    border: #4e95f4 1px solid;
+}
+.datatable tr{
+    background : #b8d1f3;
+}
+.datatable tr:nth-child(odd) {
+    background : #b8d1f3;
+}
+.datatable tr:nth-child(even) {
+    background: #dae5f4;
+}
