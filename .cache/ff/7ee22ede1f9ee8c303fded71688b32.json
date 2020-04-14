@@ -1,0 +1,17 @@
+{
+    "id": "favicon.9e521a32.ico",
+    "dependencies": [
+        {
+            "name": "/Users/mlott/dev/webcomponent3/package.json",
+            "includedInParent": true,
+            "mtime": 1586473937536
+        }
+    ],
+    "generated": {
+        "js": "module.exports = \"/043df4ed01b8407dbf2a6c6a7162d376.ico\";"
+    },
+    "sourceMaps": null,
+    "error": null,
+    "hash": "456324a78b099cc86945fada52b2b21a",
+    "cacheData": { "env": {} }
+}

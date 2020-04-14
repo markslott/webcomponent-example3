@@ -10,10 +10,20 @@
         </style>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="shortcut icon" href="/resources/favicon.ico" />
-
     </head>
     <body>
         <div id="main"></div>
-       
+        <my-contacts id="mycontacts" title="My LWC Contacts List"></my-contacts>
+        <script>
+            var mycontacts = document.getElementById('mycontacts');
+            mycontacts.addEventListener(
+                'contactrowclicked',
+                function (e) {
+                    e.preventDefault();
+                    console.log(e.detail);
+                },
+                false
+            );
+        </script>
     </body>
 </html>

@@ -2,13 +2,16 @@
     "name": "webcomponent3",
     "description": "My amazing LWC app",
     "version": "0.0.1",
-    "bugs": "https://github.com/webcomponent3/issues",
+    "bugs": {
+        "url": "https://github.com/webcomponent3/issues"
+    },
     "dependencies": {
         "compression": "^1.7.4",
         "express": "^4.17.1",
         "helmet": "^3.22.0"
     },
     "devDependencies": {
+        "cssnano": "^4.1.10",
         "eslint": "^6.8.0",
         "husky": "^4.2.3",
         "lint-staged": "^10.1.2",
@@ -38,7 +41,10 @@
             "eslint"
         ]
     },
-    "repository": "webcomponent3",
+    "repository": {
+        "type": "git",
+        "url": "webcomponent3"
+    },
     "scripts": {
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
@@ -51,5 +57,7 @@
         "test:unit:debug": "lwc-services test:unit --debug",
         "test:unit:watch": "lwc-services test:unit --watch",
         "watch": "lwc-services watch"
-    }
+    },
+    "main": "jest.config.js",
+    "author": ""
 }

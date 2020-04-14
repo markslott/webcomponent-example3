@@ -1,0 +1,40 @@
+{
+    "id": "index.html",
+    "dependencies": [
+        {
+            "name": "/Users/mlott/dev/webcomponent3/dist/favicon.9e521a32.7162d376.ccb0c582.ico",
+            "dynamic": true,
+            "resolved": "/Users/mlott/dev/webcomponent3/dist/favicon.9e521a32.7162d376.ccb0c582.ico",
+            "parent": "/Users/mlott/dev/webcomponent3/dist/index.html"
+        },
+        {
+            "name": "/Users/mlott/dev/webcomponent3/dist/0.app.7449a9d2.f9bbe9bf.403ff581.js",
+            "dynamic": true,
+            "resolved": "/Users/mlott/dev/webcomponent3/dist/0.app.7449a9d2.f9bbe9bf.403ff581.js",
+            "parent": "/Users/mlott/dev/webcomponent3/dist/index.html"
+        },
+        {
+            "name": "/Users/mlott/dev/webcomponent3/dist/app.c328ef1a.07bd8948.ec4231a8.js",
+            "dynamic": true,
+            "resolved": "/Users/mlott/dev/webcomponent3/dist/app.c328ef1a.07bd8948.ec4231a8.js",
+            "parent": "/Users/mlott/dev/webcomponent3/dist/index.html"
+        },
+        {
+            "name": "_css_loader",
+            "parent": "/Users/mlott/dev/webcomponent3/dist/index.html",
+            "resolved": "/usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"
+        },
+        {
+            "name": "/Users/mlott/dev/webcomponent3/package.json",
+            "includedInParent": true,
+            "mtime": 1586473937536
+        }
+    ],
+    "generated": {
+        "html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>My LWC App</title><style>body {\n                font-family: Arial, Helvetica, sans-serif;\n            }</style><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link rel=\"shortcut icon\" href=\"/30871043aae979e3e1bf55bfd57995c0.ico\"></head><body><div id=\"main\"></div><script src=\"/5e791265daedb7a1c8a9e0733a916632.js\"></script><script src=\"/3279ac28551a7cef0d02aef420a58a29.js\"></script></body></html>"
+    },
+    "sourceMaps": null,
+    "error": null,
+    "hash": "50cdb2b8cd2655426a96f62e3fe0e96a",
+    "cacheData": { "env": {} }
+}

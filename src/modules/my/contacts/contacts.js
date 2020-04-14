@@ -14,6 +14,16 @@ export default class Contacts extends LightningElement {
         this.getData();
     }
 
+    rowClicked(event) {
+        this.dispatchEvent(
+            new CustomEvent('contactrowclicked', {
+                detail: event.target.innerHTML,
+                bubbles: true,
+                composed: true
+            })
+        );
+    }
+
     async getData() {
         const data = await fetchDataHelper({ amountOfRecords: 10 });
         this.data = data;
