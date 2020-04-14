@@ -4,6 +4,8 @@ logs
 *-debug.log
 *-error.log
 
+/.cache
+
 # Standard lib folder
 /lib
 
