@@ -5,7 +5,8 @@ export default class Contacts extends LightningElement {
     @api title;
     data = [];
 
-    //in connectedCallback we retrieve data end render it
+    //standard web component lifecycle hook
+    //in connectedCallback we retrieve data and render it
     connectedCallback() {
         this.getData();
     }
